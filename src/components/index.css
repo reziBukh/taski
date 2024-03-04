@@ -1,0 +1,144 @@
+.button{
+    width: 397px;
+    height: 30px;
+    background-color: #e77817;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.arrow{  
+    vertical-align: middle;
+    margin-inline-start: 5px;
+    margin-block-end: 3px;
+}
+.showmore{
+    margin-right: 745px;
+    text-decoration: underline;
+}
+
+.checkbox-container {
+    display: inline-flex;
+    margin: 10px;
+    
+}
+.checkbox-container label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 25px;
+
+}
+.checkbox-container label:before {
+    content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1em; 
+  height: 1em; 
+  border: 1px solid #e77817;
+  border-radius: 20%;
+}
+.checkbox-container input:checked + label:before {
+    background-color:#e77817;
+}
+.checkbox-container input[type='checkbox']{
+    opacity: 0;
+    position: absolute;
+}
+.checkbox-container input[type='checkbox']:checked+label::before{
+
+    content:'\2713';
+    color: white;
+}
+
+.parent-container {
+    display: flex;
+  }
+  
+  .div1, .div2, .div3, .div4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+.div4{
+    margin-left: 30px;
+}
+.div3{
+    margin-left: 130px;
+}
+.div2{
+    margin-left: 30px;
+}
+.div1{
+    margin-left: 340px;
+}
+.heading-container {
+    display: flex;
+    color: #c9c9c9;
+  }
+.popular{
+    margin-left: 352px;
+}
+.features{
+    margin-left: 366px;
+}
+.amenities{
+    color: #e77817;
+    margin-right: 655px;
+    font-size: 28px;
+}
+.input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    outline: none;
+    margin: 10px;
+    text-indent: 15px;
+}
+.input::placeholder{
+    color: #cfcfcf;
+    
+}
+.inputcontainer1{
+    display: flex;
+    justify-content: center;
+    margin-left: 135px;
+    
+}
+.inputcontainer2{
+    display: flex;
+    justify-content: center;
+    margin-left: 135px;
+    
+}
+.DropdownCheckbox{
+    width: 303px;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    outline: none;
+    margin: 10px;
+    text-indent: 15px;
+    color: #cfcfcf;
+    
+}
+.dropdowncontainer{
+    display: flex;
+    justify-content: center;
+    margin-left: 133px;
+}
+
+
+
+
+  
+  
+  
+
+
+
+
